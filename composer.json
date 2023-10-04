@@ -1,0 +1,19 @@
+{
+    "name": "so-long/blog",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "SoLong\\Blog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Solong13",
+            "email": "limbo24gg@gmail.com"
+        }
+    ],
+    "require": {
+        "mohammadv184/arcaptcha": "^1.0",
+        "gregwar/captcha": "^1.2"
+    }
+}
