@@ -16,7 +16,7 @@ const HOST = 'http://blog/';
 /*компоузер тепер сам сканує наші файли і підключає їх
 але при загрузці компоузер очікує що всі namespace будуть розтавлені 
 згідно psr-4*/
-require_once('vendor/autoload.php');
+ require_once('vendor/autoload.php');
 
 
 

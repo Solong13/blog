@@ -36,6 +36,6 @@ class MessageStore {
     }
 
     public function __destruct(){
-        $this->saveMessage();
+         $this->saveMessage();
     }
 }

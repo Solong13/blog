@@ -27,7 +27,7 @@
         <!-- <label for="u_password">Input Password:</label> -->
         <input type="password" placeholder="Input your password:" name="u_password" id="u_password" require>
     
-        <input type="submit" value="Log In">
+         <input type="submit" value="Log In">
         <p style="color:red; text-align:center; margin-top: 55px; font-size: 15xp;"><?php echo $error["auth"] ?? null; ?></p>
 </form>
 

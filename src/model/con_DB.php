@@ -31,7 +31,7 @@ class con_DB  {
 
         try {
             //В даному рядку відбувається створення об'єкта PDO і підключення до бази даних
-            $this->dbh = new PDO("mysql:host={$dbHost};dbname={$dbName}", $dbUserName, $dbPassword);
+             $this->dbh = new PDO("mysql:host={$dbHost};dbname={$dbName}", $dbUserName, $dbPassword);
             //Встановлюємо атрибути об'єкта PDO для обробки помилок і встановлюємо режим обробки помилок в режим. Вираз PDO:: вказує на те, що ця константа належить класу PDO.
             $this->dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             // Задаємо кодування

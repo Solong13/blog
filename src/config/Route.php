@@ -49,6 +49,7 @@ class Route {
 //             $blog_controller->currentPath();
 //         }else{
 //             echo 404;
+
 //         }
     }
 

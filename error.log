@@ -1591,3 +1591,4 @@ Stack trace:
 #2 C:\xampp\htdocs\blog\index.php(45): SoLong\Blog\config\Route->run()
 #3 {main}
   thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 78
+[19-Oct-2023 20:01:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "помилок" in C:\xampp\htdocs\blog\src\Controllers\RegisterController.php on line 71

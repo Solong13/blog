@@ -15,7 +15,7 @@ abstract class ServerMain {
     }
 
     public function add(string $key, string $value):void {
-        $this->serverArray[$key] = $value;
+         $this->serverArray[$key] = $value;
     }
 
     public function delete(string $key):void {

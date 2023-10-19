@@ -16,7 +16,7 @@ class Cookie {
         $this->serverArray = $_COOKIE;
     }
 
-    public function add(string $key, string $value):void {
+    public function add( string $key, string $value):void {
         setcookie($key, $value);
         $this->addTrait($key, $value);
     }

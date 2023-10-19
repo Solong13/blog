@@ -13,7 +13,7 @@
             <h1>Our Messages</h1>
         </div>
         <div class="log1n">
-            <a href="login">Log In</a>
+             <a href="login">Log In</a>
         </div>
     
     </div>

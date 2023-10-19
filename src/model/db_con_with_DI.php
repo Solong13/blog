@@ -35,7 +35,7 @@ class Db_con_with_DI {
             //Встановлюємо атрибути об'єкта PDO для обробки помилок і встановлюємо режим обробки помилок в режим. Вираз PDO:: вказує на те, що ця константа належить класу PDO.
             $this->dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             // Задаємо кодування
-            $this->dbh->exec('SET NAMES UTF8');
+             $this->dbh->exec('SET NAMES UTF8');
         } catch (PDOException $e) {
             echo 'Connection failed: ' . $e->getMessage();
         }

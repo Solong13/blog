@@ -21,7 +21,7 @@ class BlogController {
         $login = $session->get('login');
         $theme = $cookie->get('theme');
         $error = [];
-var_dump($login);
+
         if(!$session->has('login')) {
             header("Location: login");
             exit;

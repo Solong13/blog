@@ -1,2 +1,5 @@
 .vendor
 /vendor/
+error.log
+messags.json
+README.md

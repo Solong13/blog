@@ -7,7 +7,7 @@ class Post {
     use DateTrait;
     use CheckTrait;
     public function __construct(){
-        $this->serverArray = $_POST;
+         $this->serverArray = $_POST;
     }
     
 }

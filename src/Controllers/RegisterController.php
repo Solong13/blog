@@ -68,37 +68,38 @@ class RegisterController {
             //"captcha" => $captchaWrapper->getCaptcha() ?? null
         ]);
     }
-}Обробка помилок і повідомлення користувачам можуть бути покращені за допомогою використання винятків (exceptions) та звичайних повідомлень. Ось приклад, як ви можете здійснити це в вашому контролері:
-
-Визначте спеціальні класи винятків: Ваш контролер може мати власні класи винятків для різних видів помилок. Наприклад:
-
-php
-Copy code
-class EmailAlreadyExistsException extends \Exception {}
-class NicknameAlreadyExistsException extends \Exception {}
-class ValidationException extends \Exception {}
-Обробка помилок: При виникненні помилки створюйте відповідний об'єкт винятка та кидаєте його. Наприклад:
-
-php
-Copy code
-if ($emailStatus !== null) {
-    throw new EmailAlreadyExistsException("Електронна пошта зі вказаним іменем вже існує!");
 }
+// Обробка помилок і повідомлення користувачам можуть бути покращені за допомогою використання винятків (exceptions) та звичайних повідомлень. Ось приклад, як ви можете здійснити це в вашому контролері:
 
-if ($nickNameStatus !== null) {
-    throw new NicknameAlreadyExistsException("Даний нік вже існує!");
-}
-Обробка винятків: Ваш контролер повинен мати обробник винятків, який ловить винятки та надсилає їх на сторінку з повідомленнями про помилки для користувача. Ось приклад такого обробника в контролері:
+// Визначте спеціальні класи винятків: Ваш контролер може мати власні класи винятків для різних видів помилок. Наприклад:
 
-php
-Copy code
-try {
-    // Ваша логіка реєстрації
-} catch (EmailAlreadyExistsException $e) {
-    $error['error_email'] = $e->getMessage();
-} catch (NicknameAlreadyExistsException $e) {
-    $error['error_name'] = $e->getMessage();
-} catch (ValidationException $e) {
-    // Обробка валідаційних помилок
-}
-Виведення повідомлень користувачам: У вашому представленні (шаблоні) виведіть ці повідомлення про помилки для користувача. Ви можете використовувати звичайні засоби HTML та CSS для стилізації повідомлень.
+// php
+// Copy code
+// class EmailAlreadyExistsException extends \Exception {}
+// class NicknameAlreadyExistsException extends \Exception {}
+// class ValidationException extends \Exception {}
+// Обробка помилок: При виникненні помилки створюйте відповідний об'єкт винятка та кидаєте його. Наприклад:
+
+// php
+// Copy code
+// if ($emailStatus !== null) {
+//     throw new EmailAlreadyExistsException("Електронна пошта зі вказаним іменем вже існує!");
+// }
+
+// if ($nickNameStatus !== null) {
+//     throw new NicknameAlreadyExistsException("Даний нік вже існує!");
+// }
+// Обробка винятків: Ваш контролер повинен мати обробник винятків, який ловить винятки та надсилає їх на сторінку з повідомленнями про помилки для користувача. Ось приклад такого обробника в контролері:
+
+// php
+// Copy code
+// try {
+//     // Ваша логіка реєстрації
+// } catch (EmailAlreadyExistsException $e) {
+//     $error['error_email'] = $e->getMessage();
+// } catch (NicknameAlreadyExistsException $e) {
+//     $error['error_name'] = $e->getMessage();
+// } catch (ValidationException $e) {
+//     // Обробка валідаційних помилок
+// }
+// Виведення повідомлень користувачам: У вашому представленні (шаблоні) виведіть ці повідомлення про помилки для користувача. Ви можете використовувати звичайні засоби HTML та CSS для стилізації повідомлень.

@@ -9,6 +9,7 @@ class ValidHelper {
 
     public function __construct() {
         $this->post = new Post();
+    
     }
 
     // Валідація електронної пошти

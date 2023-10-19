@@ -35,7 +35,7 @@
 
     <form method="post">
         <input type="text" name="user_post">
-        <input type="submit" value="Send">
+         <input type="submit" value="Send">
         <p style="color:red; text-align:center;font-size: 15xp;"><?php echo $error[0] ?? null; ?></p>
     </form>
 

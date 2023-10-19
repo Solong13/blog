@@ -13,7 +13,7 @@ class CaptchaWrapper {
     public function __construct() 
     {
         $this->captchaBuilder = new CaptchaBuilder();
-        $this->captchaBuilder->build();
+         $this->captchaBuilder->build();
     
         $this->session = new Session();
     }

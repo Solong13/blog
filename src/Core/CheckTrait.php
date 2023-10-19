@@ -9,6 +9,6 @@ trait CheckTrait {
     }
 
       public function get(string $key, string $default = null) {
-        return $this->serverArray[$key] ?? $default;
+        return $this->serverArray[$key]  ?? $default;
     }
 }

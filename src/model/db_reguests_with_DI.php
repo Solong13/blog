@@ -17,7 +17,7 @@ class Db_reguests_with_DI {
         $pdo = $this->db->getPDO();
         // Наприклад, вставити дані в таблицю
             // $stmt = $pdo->prepare('INSERT INTO your_table (column1, column2) VALUES (:column1, :column2)');
-            // $stm->bindValue('column1', 'x100@php.zone');
+            //  $stm->bindValue('column1', 'x100@php.zone');
             // $stm->bindValue('column2', 'Вячеслав');
             // $stmt->execute(); INSERT INTO `users`(`id`, `email`, `name`, `password`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]')
 

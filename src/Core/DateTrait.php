@@ -8,6 +8,6 @@ trait DateTrait {
     }
 
     public function delete(string $key):void {
-        unset($this->serverArray[$key]);
+        unset( $this->serverArray[$key]);
     }
 }

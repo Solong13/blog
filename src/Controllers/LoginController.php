@@ -36,22 +36,24 @@ class LoginController {
         //$captchaWrapper = new CaptchaWrapper();
         //var_dump($pdo->fetchData($post->get('user_login'), $post->get('u_password')));
   
-        $date = $pdo->fetchData($post->get('user_login'), $post->get('u_password'));
-        if(!$date) {
-            $error['auth'] = "Користувача за вказаними даними не існує";
-        } else {
-            // if (
-            //     !$this->session->has('login') && 
-            //     $post->has('user_login') && $post->get('u_password')
-            //     //$pdo->fetchData($post->get('user_login'), $post->get('u_password'))
-            //    // $captchaWrapper->checkCaptcha($post->get("captcha"))
-            // ) {
-                $name = $pdo->getName($post->get('user_login'));
-                $this->session->add('login', $name['name']);
+        if($post->has('user_login') && $post->has('u_password')){ 
+            $date = $pdo->fetchData($post->get('user_login'), $post->get('u_password'));
+            
+            if(!$date) {
+                $error['auth'] = "Користувача за вказаними даними не існує";
+            } else {
+                // if (
+                //     !$this->session->has('login') && 
+                //     $post->has('user_login') && $post->get('u_password')
+                //     //$pdo->fetchData($post->get('user_login'), $post->get('u_password'))
+                //    // $captchaWrapper->checkCaptcha($post->get("captcha"))
+                // ) {
+                    $name = $pdo->getName($post->get('user_login'));
+                    $this->session->add('login', $name['name']);
 
-           // }
+            // }
+            }
         }
-
 
         if($this->session->has('login')) {
             header("Location: ".HOST);
