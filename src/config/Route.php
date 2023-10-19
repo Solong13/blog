@@ -9,19 +9,21 @@ namespace SoLong\Blog\config;
 
 use  SoLong\Blog\Controllers\BlogController;
 use  SoLong\Blog\Controllers\LoginController;
+use  SoLong\Blog\Controllers\RegisterController;
 
 class Route {
 
     private array $routes = [
-        '/chat1/' => [BlogController::class],
-        '/chat1/login' => [LoginController::class],
-        '/chat1/logout' => [LoginController::class, 'logout'],
+        '/' => [BlogController::class],
+        '/auth' => [RegisterController::class],
+        '/login' => [LoginController::class],
+        '/logout' => [LoginController::class, 'logOut'],
     ];
 
     public function run(){
 
         $uri = $_SERVER["REQUEST_URI"];
-    var_dump($uri);
+
             if(!isset($this->routes[$uri])){
                 echo 404;
                 return;

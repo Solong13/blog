@@ -1,5 +1,5 @@
 body{
-    background: #7d7d9a;
+    background: #9ecee4;
     margin: 50px 20%;
     font-family: monospace;
 }
@@ -38,12 +38,33 @@ input[type='text'] {
     float: left;
     width: 89%;
     padding: 5px;
+    border-radius: 50px;
+    border-color: aquamarine;
+    background: beige;
+}
+input[type='password'] {
+    margin-top: 10px;
+    width: 100%;
+    float: left;
+    width: 89%;
+    padding: 5px;
+    border-radius: 50px;
+    border-color: aquamarine;
+    background: beige;
 }
 
 input[type='submit']{
+    margin-top: 10px;
+    border-radius: 50px;
     float: right;
     width: 8%;
     padding: 5px;
+    cursor: pointer;
+}
+
+input[type='submit']:hover{
+    background-color: beige;
+    transition: background-color 0.3s ease; /* Застосовуємо анімацію до background-color і color */
 }
 
 .hed{

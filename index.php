@@ -5,11 +5,14 @@ ini_set('display_startup_errors', 1);
 ini_set('log_errors', 1);
 ini_set('error_log', 'error.log');
 
-session_start();
+define('DB_HOST', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'blog');
 const MAINPATH = "messags.json";
 const USERDB = "user_db.json";
-const BASE_URL = '/chat1/';
-const HOST = 'http://test';
+define("ABSOLUTPATH", $_SERVER['DOCUMENT_ROOT']);
+const HOST = 'http://blog/';
 /*компоузер тепер сам сканує наші файли і підключає їх
 але при загрузці компоузер очікує що всі namespace будуть розтавлені 
 згідно psr-4*/
@@ -40,3 +43,5 @@ require_once('vendor/autoload.php');
 
 $route = new SoLong\Blog\config\Route();
 $route->run();
+$db = new SoLong\Blog\model\con_DB();
+//var_dump($db->getPDO());

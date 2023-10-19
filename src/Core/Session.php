@@ -8,6 +8,9 @@ class Session {
     private array $serverArray;
 
     public function __construct(){
+        if(session_status() !== PHP_SESSION_ACTIVE){
+           session_start(); 
+        }
         $this->serverArray = &$_SESSION;
     }
 

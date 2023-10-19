@@ -12,8 +12,5 @@
             "email": "limbo24gg@gmail.com"
         }
     ],
-    "require": {
-        "mohammadv184/arcaptcha": "^1.0",
-        "gregwar/captcha": "^1.2"
-    }
+    "require": {}
 }

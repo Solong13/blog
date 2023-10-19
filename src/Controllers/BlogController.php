@@ -23,8 +23,8 @@ class BlogController {
         $error = [];
 var_dump($login);
         if(!$session->has('login')) {
-            header("Location: ". HOST . BASE_URL. "login");
-            exit();
+            header("Location: login");
+            exit;
         }
         
         if(isset($user_post) && isset($login)){

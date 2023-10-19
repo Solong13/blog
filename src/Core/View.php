@@ -2,6 +2,8 @@
 
 namespace SoLong\Blog\Core;
 
+use SoLong\Blog\config\init;
+
 class View {
 
     public function render(string $name, array $params = []) {
@@ -10,8 +12,9 @@ class View {
         поточний PHP-скрипт. Використовуючи цю константу, ви завжди будете впевнені, що вказуєте правильний 
         абсолютний шлях до файлу незалежно від того, де розташований ваш скрипт на сервері.
         */
-        $realPathToFile = $_SERVER['DOCUMENT_ROOT'].BASE_URL."src/Views/Templates/".$name.".php";
-var_dump($_SERVER['DOCUMENT_ROOT']);
+  
+        $realPathToFile = ABSOLUTPATH."/src/Views/Templates/".$name.".php";
+
         if(file_exists($realPathToFile)){
             extract($params);
 

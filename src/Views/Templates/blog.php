@@ -13,13 +13,14 @@
             <h1>Our Messages</h1>
         </div>
         <div class="log1n">
-            <a href="#">Log In</a>
+            <a href="#">Register</a> |
+            <a href="#">Log In</a> |
+            <a href="/logout">Log Out</a>
         </div>
     
     </div>
     
     <?php 
-var_dump($message);
         foreach($message as $mes){
            // if($session->get('login', null) === $mes['login']){
                 echo "<div class='message'>";
