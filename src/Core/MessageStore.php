@@ -7,12 +7,14 @@
 */
 namespace SoLong\Blog\Core;
 
+use SoLong\Blog\config\init;
+
 class MessageStore {
 
     private array $message;
 
     public function __construct() {
-        if(!is_file(MAINPATH)){
+        if (!is_file(MAINPATH)) {
             file_put_contents(MAINPATH, "{}");
         }
 

@@ -15,7 +15,7 @@ use  SoLong\Blog\Core\View;
 use  SoLong\Blog\Core\Cookie;
 use  SoLong\Blog\Core\Post;
 use  SoLong\Blog\Utils\CaptchaWrapper;
-use SoLong\Blog\model\Db_con_with_DI;
+use SoLong\Blog\model\con_DB;
 use SoLong\Blog\model\Db_reguests_with_DI;
 
 class LoginController {
@@ -30,11 +30,12 @@ class LoginController {
         $post = new Post();
         $view = new View();
         $cookie = new Cookie();
-        $db = new  Db_con_with_DI();
-        $pdo = new Db_reguests_with_DI($db);
+        $db = new  con_DB();
+       $pdo = new Db_reguests_with_DI($db);
         $error = [];
         //$captchaWrapper = new CaptchaWrapper();
-        //var_dump($pdo->fetchData($post->get('user_login'), $post->get('u_password')));
+
+       // var_dump();
   
         if($post->has('user_login') && $post->has('u_password')){ 
             $date = $pdo->fetchData($post->get('user_login'), $post->get('u_password'));
@@ -42,16 +43,8 @@ class LoginController {
             if(!$date) {
                 $error['auth'] = "Користувача за вказаними даними не існує";
             } else {
-                // if (
-                //     !$this->session->has('login') && 
-                //     $post->has('user_login') && $post->get('u_password')
-                //     //$pdo->fetchData($post->get('user_login'), $post->get('u_password'))
-                //    // $captchaWrapper->checkCaptcha($post->get("captcha"))
-                // ) {
-                    $name = $pdo->getName($post->get('user_login'));
-                    $this->session->add('login', $name['name']);
-
-            // }
+                $name = $pdo->getName($post->get('user_login'));
+                $this->session->add('login', $name['name']);
             }
         }
 

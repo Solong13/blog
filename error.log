@@ -1592,3 +1592,682 @@ Stack trace:
 #3 {main}
   thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 78
 [19-Oct-2023 20:01:48 Europe/Berlin] PHP Parse error:  syntax error, unexpected identifier "РїРѕРјРёР»РѕРє" in C:\xampp\htdocs\blog\src\Controllers\RegisterController.php on line 71
+[20-Oct-2023 13:22:34 Europe/Berlin] PHP Warning:  require_once(vendor/autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\blog\index.php on line 19
+[20-Oct-2023 13:22:34 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 13:22:34 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 13:22:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\blog\index.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\blog\index.php on line 19
+[20-Oct-2023 13:22:34 Europe/Berlin] PHP Warning:  require_once(vendor/autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\blog\index.php on line 19
+[20-Oct-2023 13:22:34 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 13:22:34 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 13:22:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\blog\index.php:19
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\blog\index.php on line 19
+[20-Oct-2023 13:24:02 Europe/Berlin] PHP Warning:  require_once(vendor/autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\blog\index.php on line 11
+[20-Oct-2023 13:24:02 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 13:24:02 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 13:24:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\blog\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\blog\index.php on line 11
+[20-Oct-2023 13:24:02 Europe/Berlin] PHP Warning:  require_once(vendor/autoload.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\blog\index.php on line 11
+[20-Oct-2023 13:24:02 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 13:24:02 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 13:24:02 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\blog\index.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\blog\index.php on line 11
+[20-Oct-2023 13:28:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:15
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 15
+[20-Oct-2023 13:30:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:30:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:30:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:30:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:30:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:30:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:30:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:34:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:34:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:34:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:34:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:34:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:35:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\Core\SoLong\Blog\config\Config" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:35:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\Core\SoLong\Blog\config\Config" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:35:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:36:20 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config\init" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:36:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config\init" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:36:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config\init" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:36:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config\init" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:36:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\config\Config\init" not found in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:36:31 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:37:38 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:37:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:37:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:37:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:37:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:37:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:37:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:37:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:37:59 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:38:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:38:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:38:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\ABSOLUTPATH" in C:\xampp\htdocs\blog\src\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(65): SoLong\Blog\Core\View->render('login', Array)
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\View.php on line 17
+[20-Oct-2023 13:38:04 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:40:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant SoLong\Blog\Core\MessageStore::MAINPATH in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:40:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant SoLong\Blog\Core\MessageStore::MAINPATH in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:40:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant SoLong\Blog\Core\MessageStore::MAINPATH in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:40:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant SoLong\Blog\Core\MessageStore::MAINPATH in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:40:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant SoLong\Blog\Core\MessageStore::MAINPATH in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:41:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "SoLong\Blog\Core\MAINPATH" in C:\xampp\htdocs\blog\src\Core\MessageStore.php:17
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\BlogController.php(17): SoLong\Blog\Core\MessageStore->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\BlogController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(23): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Core\MessageStore.php on line 17
+[20-Oct-2023 13:42:13 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ABSOLUTPATH" in C:\xampp\htdocs\blog\index.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\blog\index.php on line 14
+[20-Oct-2023 13:42:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "ABSOLUTPATH" in C:\xampp\htdocs\blog\index.php:14
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\blog\index.php on line 14
+[20-Oct-2023 13:42:37 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test.users' doesn't exist in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:65
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php(65): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(40): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#2 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#3 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#4 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 65
+[20-Oct-2023 14:58:41 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for mysql failed: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.  in C:\xampp\htdocs\blog\src\model\con_DB.php:57
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(57): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\model\con_DB.php(25): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#3 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Этот хост неизвестен.  in C:\xampp\htdocs\blog\src\model\con_DB.php:57
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(57): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\model\con_DB.php(25): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 57
+[20-Oct-2023 14:58:42 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for mysql failed: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.  in C:\xampp\htdocs\blog\src\model\con_DB.php:57
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(57): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\model\con_DB.php(25): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#3 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Этот хост неизвестен.  in C:\xampp\htdocs\blog\src\model\con_DB.php:57
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(57): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\model\con_DB.php(25): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 57
+[20-Oct-2023 14:58:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for mysql failed: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.  in C:\xampp\htdocs\blog\src\model\con_DB.php:57
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(57): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\model\con_DB.php(25): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#3 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Этот хост неизвестен.  in C:\xampp\htdocs\blog\src\model\con_DB.php:57
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(57): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\model\con_DB.php(25): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 57
+[20-Oct-2023 14:58:45 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for mysql failed: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.  in C:\xampp\htdocs\blog\src\model\con_DB.php:57
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(57): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\model\con_DB.php(25): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#3 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Этот хост неизвестен.  in C:\xampp\htdocs\blog\src\model\con_DB.php:57
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(57): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\model\con_DB.php(25): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 57
+[20-Oct-2023 14:58:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for mysql failed: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.  in C:\xampp\htdocs\blog\src\model\con_DB.php:57
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(57): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\model\con_DB.php(25): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#3 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Этот хост неизвестен.  in C:\xampp\htdocs\blog\src\model\con_DB.php:57
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(57): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\model\con_DB.php(25): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 57
+[20-Oct-2023 15:01:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method SoLong\Blog\model\Db_con_with_DI::someConnection() in C:\xampp\htdocs\blog\src\Controllers\LoginController.php:38
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#1 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#2 {main}
+  thrown in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 38
+[20-Oct-2023 15:03:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "SoLong\Blog\Controllers\Db_con_with_DI" not found in C:\xampp\htdocs\blog\src\Controllers\LoginController.php:33
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#1 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#2 {main}
+  thrown in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 33
+[20-Oct-2023 15:14:22 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: SoLong\Blog\model\Db_reguests_with_DI::__construct(): Argument #1 ($db) must be of type SoLong\Blog\model\Db_con_with_DI, SoLong\Blog\model\con_DB given, called in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 34 and defined in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:11
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(34): SoLong\Blog\model\Db_reguests_with_DI->__construct(Object(SoLong\Blog\model\con_DB))
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 11
+[20-Oct-2023 15:15:00 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for mysql failed: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.  in C:\xampp\htdocs\blog\src\model\con_DB.php:69
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(69): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(38): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#3 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#4 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Этот хост неизвестен.  in C:\xampp\htdocs\blog\src\model\con_DB.php:69
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(69): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(38): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#3 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#4 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 69
+[20-Oct-2023 15:16:50 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for mysql failed: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.  in C:\xampp\htdocs\blog\src\model\con_DB.php:69
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(69): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(38): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#3 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#4 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Этот хост неизвестен.  in C:\xampp\htdocs\blog\src\model\con_DB.php:69
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(69): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(38): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#3 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#4 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 69
+[20-Oct-2023 15:16:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo for mysql failed: пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.  in C:\xampp\htdocs\blog\src\model\con_DB.php:69
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(69): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(38): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#3 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#4 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for mysql failed: Этот хост неизвестен.  in C:\xampp\htdocs\blog\src\model\con_DB.php:69
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\model\con_DB.php(69): PDO->__construct('mysql:host=mysq...', 'root', '', Array)
+#1 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(38): SoLong\Blog\model\con_DB->someConnection()
+#2 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#3 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#4 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 69
+[20-Oct-2023 15:20:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:62
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(41): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 62
+[20-Oct-2023 15:52:46 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 33 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:35
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(33): SoLong\Blog\model\con_DB->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 35
+[20-Oct-2023 15:52:46 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\index.php on line 31 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:35
+Stack trace:
+#0 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 35
+[20-Oct-2023 15:57:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:62
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(41): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 62
+[20-Oct-2023 17:10:05 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 33 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(33): SoLong\Blog\model\con_DB->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 17:10:06 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\index.php on line 31 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 17:10:49 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Wrong parameter count for var_dump() in C:\xampp\htdocs\blog\src\Controllers\LoginController.php:38
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(38): var_dump()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 38
+[20-Oct-2023 17:10:49 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\index.php on line 31 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 17:11:00 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 41
+[20-Oct-2023 17:11:00 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 17:11:00 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 17:11:00 Europe/Berlin] PHP   2. SoLong\Blog\config\Route->run() C:\xampp\htdocs\blog\index.php:30
+[20-Oct-2023 17:11:00 Europe/Berlin] PHP   3. SoLong\Blog\Controllers\LoginController->currentPath() C:\xampp\htdocs\blog\src\config\Route.php:34
+[20-Oct-2023 17:11:00 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetchData() on null in C:\xampp\htdocs\blog\src\Controllers\LoginController.php:41
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#1 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#2 {main}
+  thrown in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 41
+[20-Oct-2023 17:11:00 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\index.php on line 31 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 18:22:39 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 41
+[20-Oct-2023 18:22:39 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 18:22:39 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 18:22:39 Europe/Berlin] PHP   2. SoLong\Blog\config\Route->run() C:\xampp\htdocs\blog\index.php:30
+[20-Oct-2023 18:22:39 Europe/Berlin] PHP   3. SoLong\Blog\Controllers\LoginController->currentPath() C:\xampp\htdocs\blog\src\config\Route.php:34
+[20-Oct-2023 18:22:39 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetchData() on null in C:\xampp\htdocs\blog\src\Controllers\LoginController.php:41
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#1 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#2 {main}
+  thrown in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 41
+[20-Oct-2023 18:22:41 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\index.php on line 31 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 20:05:32 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 41
+[20-Oct-2023 20:05:32 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 20:05:32 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 20:05:32 Europe/Berlin] PHP   2. SoLong\Blog\config\Route->run() C:\xampp\htdocs\blog\index.php:30
+[20-Oct-2023 20:05:32 Europe/Berlin] PHP   3. SoLong\Blog\Controllers\LoginController->currentPath() C:\xampp\htdocs\blog\src\config\Route.php:34
+[20-Oct-2023 20:05:32 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetchData() on null in C:\xampp\htdocs\blog\src\Controllers\LoginController.php:41
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#1 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#2 {main}
+  thrown in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 41
+[20-Oct-2023 20:05:32 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\index.php on line 31 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 20:05:54 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 41
+[20-Oct-2023 20:05:54 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 20:05:54 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 20:05:54 Europe/Berlin] PHP   2. SoLong\Blog\config\Route->run() C:\xampp\htdocs\blog\index.php:30
+[20-Oct-2023 20:05:54 Europe/Berlin] PHP   3. SoLong\Blog\Controllers\LoginController->currentPath() C:\xampp\htdocs\blog\src\config\Route.php:34
+[20-Oct-2023 20:05:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function fetchData() on null in C:\xampp\htdocs\blog\src\Controllers\LoginController.php:41
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#1 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#2 {main}
+  thrown in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 41
+[20-Oct-2023 20:05:54 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\index.php on line 31 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 20:06:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected token "/" in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 34
+[20-Oct-2023 20:06:09 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\index.php on line 31 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 20:06:18 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\src\Controllers\LoginController.php on line 33 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(33): SoLong\Blog\model\con_DB->__construct()
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 20:06:18 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\index.php on line 31 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 20:10:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:63
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(41): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 63
+[20-Oct-2023 20:10:35 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function SoLong\Blog\model\con_DB::__construct(), 0 passed in C:\xampp\htdocs\blog\index.php on line 31 and exactly 6 expected in C:\xampp\htdocs\blog\src\model\con_DB.php:37
+Stack trace:
+#0 C:\xampp\htdocs\blog\index.php(31): SoLong\Blog\model\con_DB->__construct()
+#1 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\con_DB.php on line 37
+[20-Oct-2023 20:19:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:63
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(41): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 63
+[20-Oct-2023 20:24:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:63
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(41): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 63
+[20-Oct-2023 20:35:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:63
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(41): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 63
+[20-Oct-2023 20:36:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:63
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(41): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 63
+[20-Oct-2023 20:49:34 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 60
+[20-Oct-2023 20:49:34 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 20:49:34 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 20:49:34 Europe/Berlin] PHP   2. SoLong\Blog\config\Route->run() C:\xampp\htdocs\blog\index.php:30
+[20-Oct-2023 20:49:34 Europe/Berlin] PHP   3. SoLong\Blog\Controllers\LoginController->currentPath() C:\xampp\htdocs\blog\src\config\Route.php:34
+[20-Oct-2023 20:49:34 Europe/Berlin] PHP   4. SoLong\Blog\model\Db_reguests_with_DI->fetchData($login = '', $password = '') C:\xampp\htdocs\blog\src\Controllers\LoginController.php:41
+[20-Oct-2023 20:49:34 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:60
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(41): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 60
+[20-Oct-2023 20:49:56 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 60
+[20-Oct-2023 20:49:56 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 20:49:56 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 20:49:56 Europe/Berlin] PHP   2. SoLong\Blog\config\Route->run() C:\xampp\htdocs\blog\index.php:30
+[20-Oct-2023 20:49:56 Europe/Berlin] PHP   3. SoLong\Blog\Controllers\LoginController->currentPath() C:\xampp\htdocs\blog\src\config\Route.php:34
+[20-Oct-2023 20:49:56 Europe/Berlin] PHP   4. SoLong\Blog\model\Db_reguests_with_DI->fetchData($login = '', $password = '') C:\xampp\htdocs\blog\src\Controllers\LoginController.php:41
+[20-Oct-2023 20:49:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:60
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(41): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 60
+[20-Oct-2023 21:02:41 Europe/Berlin] PHP Warning:  Undefined variable $pdo in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 64
+[20-Oct-2023 21:02:41 Europe/Berlin] PHP Stack trace:
+[20-Oct-2023 21:02:41 Europe/Berlin] PHP   1. {main}() C:\xampp\htdocs\blog\index.php:0
+[20-Oct-2023 21:02:41 Europe/Berlin] PHP   2. SoLong\Blog\config\Route->run() C:\xampp\htdocs\blog\index.php:30
+[20-Oct-2023 21:02:41 Europe/Berlin] PHP   3. SoLong\Blog\Controllers\LoginController->currentPath() C:\xampp\htdocs\blog\src\config\Route.php:34
+[20-Oct-2023 21:02:41 Europe/Berlin] PHP   4. SoLong\Blog\model\Db_reguests_with_DI->fetchData($login = '', $password = '') C:\xampp\htdocs\blog\src\Controllers\LoginController.php:41
+[20-Oct-2023 21:02:41 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php:64
+Stack trace:
+#0 C:\xampp\htdocs\blog\src\Controllers\LoginController.php(41): SoLong\Blog\model\Db_reguests_with_DI->fetchData('', '')
+#1 C:\xampp\htdocs\blog\src\config\Route.php(34): SoLong\Blog\Controllers\LoginController->currentPath()
+#2 C:\xampp\htdocs\blog\index.php(30): SoLong\Blog\config\Route->run()
+#3 {main}
+  thrown in C:\xampp\htdocs\blog\src\model\db_reguests_with_DI.php on line 64

@@ -5,7 +5,7 @@ namespace SoLong\Blog\Controllers;
 use  SoLong\Blog\Core\View;
 use  SoLong\Blog\Core\Cookie;
 use  SoLong\Blog\Core\Post;
-use SoLong\Blog\model\Db_con_with_DI;
+use SoLong\Blog\model\con_DB;
 use SoLong\Blog\model\Db_reguests_with_DI;
 use SoLong\Blog\config\ValidHelper;
 
@@ -25,7 +25,7 @@ class RegisterController {
         $view = new View();
         $cookie = new Cookie();
         $post = new Post();
-        $db = new  Db_con_with_DI();
+        $db = new  con_DB();
         $pdo = new Db_reguests_with_DI($db);
         $validHelper = new ValidHelper();
 
