@@ -59,7 +59,6 @@ class Db_reguests_with_DI {
 
     public function fetchData($login, $password)
     {
-       
         // Наприклад, вибрати дані з таблиці
         $stmt = $this->pdo->prepare('SELECT * FROM users WHERE email = :email AND  password = :password');
         $stmt->execute([
@@ -90,5 +89,34 @@ class Db_reguests_with_DI {
         ]);
 
         return  $stmt->fetch(PDO::FETCH_ASSOC) ? $name : null;
-    }    
+    }
+    
+    
+    // Методи для статей
+    public function getAuthorName(string $name)
+    {
+        $stmt = $this->pdo->prepare('SELECT id FROM users WHERE name = :name');
+        $stmt->execute([
+            ':name' => $name
+        ]);
+
+        return  $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+                                    
+    public function writeMessage($id, string $text){
+        $stmt = $this->pdo->prepare('INSERT INTO articles (author_id, text) VALUES (:author_id, :text)');
+        $res = $stmt->execute([
+            ':author_id' => $id,
+            ':text' => $text,
+        ]);
+        return $res ? true : false;
+    }
+
+    public function getMessage()
+    {
+        $stmt = $this->pdo->prepare('SELECT * FROM `articles` INNER JOIN `users` ON author_id = users.id');
+        $stmt->execute();
+        return  $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
 }

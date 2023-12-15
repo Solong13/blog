@@ -7,8 +7,11 @@ use  SoLong\Blog\Core\View;
 use  SoLong\Blog\Core\Cookie;
 use  SoLong\Blog\Core\MessageStore;
 use  SoLong\Blog\Core\Post;
+use SoLong\Blog\model\con_DB;
+use SoLong\Blog\model\Db_reguests_with_DI;
+use SoLong\Blog\config\ValidHelper;
 
-class BlogController {
+class BlogController extends BaseController{
 
     public function currentPath() {
         $session = new Session();
@@ -16,15 +19,17 @@ class BlogController {
         $cookie = new Cookie();
         $message_store = new MessageStore();
         $post = new Post();
-
+        $db = new  con_DB();
+        $pdo = new Db_reguests_with_DI($db);
+        $validHelper = new ValidHelper();
+        
         $user_post = $post->get('user_post') ?? null;
         $login = $session->get('login');
         $theme = $cookie->get('theme');
         $error = [];
 
         if(!$session->has('login')) {
-            header("Location: login");
-            exit;
+            $validHelper->redirectTo("/login");
         }
         
         if(isset($user_post) && isset($login)){
@@ -41,26 +46,28 @@ class BlogController {
         
                 if(!empty($user_post)) {
 
-                    $message_store->addMessage([
-                        'login' => $login,
-                        'message' => $user_post,
-                        'time' => time()
-                    ]);
-
-                    $message_store->saveMessage();
+                    // $message_store->addMessage([
+                    //     'login' => $login,
+                    //     'message' => $user_post,
+                    //     'time' => time()
+                    // ]);
+                    $id = (int)$pdo->getAuthorName($session->get('login'));
+                    $message_store->addMessage($id, $login, $post->get('user_post'));
+                    //$message_store->saveMessage();
                 } else {
                     $error[] = "Input the text pleas!";
                 }
             }
         
         }
-        
-        $view->render("blog",
-            [
-                "theme" => $cookie->get("theme"),
-                "message" => $message_store->getMessages(),
-                "error" => $error
-            ]
-        );
+     
+        $arr = $validHelper->createArray($message_store->getMessages());
+       
+        $this->SelectATemplate("blog",  [
+            "theme" => $cookie->get("theme"),
+            "message" => $message_store->getMessages(),
+            "error" => $error,
+            "login" => $login
+        ]);
     }
 }

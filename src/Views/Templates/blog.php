@@ -10,7 +10,8 @@
 <body>
     <div class="hed">
         <div>
-            <h1>Our Messages</h1>
+   
+            <h1>Our Messages | User: <?php print_r(  $login); ?></h1>
         </div>
         <div class="log1n">
             <a href="#">Register</a> |
@@ -20,19 +21,17 @@
     
     </div>
     
-    <?php 
-        foreach($message as $mes){
-           // if($session->get('login', null) === $mes['login']){
-                echo "<div class='message'>";
-                echo "<div class='time'>" . date('d.m.y H:i' , $mes['time']) . "</div>";
-                echo "<div class='login'>" . $mes['login'] . "</div>";
-                echo "<div class='message-text'>" . $mes['message']. "</div>";
-                echo "</div>";
-           // }
-        
-        }
-    ?>
-
+    <?php foreach($message as $index => $mes): ?>
+     <?php    
+foreach($mes as $me){
+        echo "<div class='message'>";
+        echo "<div class='login'>" ."Автор: ". $me['name'] . "</div>";
+        echo "<div class='time'>" . $me['date'] . "</div>";
+        echo "<div class='login'>" . $me['title'] . "</div>";
+        echo "<div class='message-text'>" . $me['text']. "</div>";
+        echo "</div>";
+} 
+     endforeach;?>
     <form method="post">
         <input type="text" name="user_post">
          <input type="submit" value="Send">

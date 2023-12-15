@@ -40,6 +40,7 @@ class ValidHelper {
         return $error['error_name'] ?? null;
     }
 
+    // Валідація password
     public function validPassword($password){
         if(isset($password) && !empty($password)){
             if(mb_strlen($password) >= 1 && mb_strlen($password) <= 5) {
@@ -52,6 +53,37 @@ class ValidHelper {
         }
 
         return $error['error_password'] ?? null;
+    }
+
+    public function dateForm(array $date) {
+        $cnt = 0;
+        foreach($date as $key => $dat) {
+            if(empty($dat)){
+                $error['auth'] = "Заповніть поле $key";
+                $cnt ++;
+            }
+        }
+
+        if($cnt > 1){
+            $error['auth'] = "Заповніть поля";
+        }
+
+        return $error['auth'] ?? null;
+    }
+
+    public function createArray(array $array) {
+        $arr = [];
+        foreach($array as $me){
+            foreach( $me as $f){  
+                $arr[] =  $f;
+            }
+        }
+        return $arr; 
+    }
+
+    public function redirectTo(string $path){
+        return header("Location: $path");
+        die();
     }
 
 }

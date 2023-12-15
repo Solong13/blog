@@ -22,14 +22,16 @@
 
 <form class="form_login" method="post">
         <!-- <label for="user_login">Input Login:</label> -->
-        <input type="text" placeholder="Input your email:" name="user_login" id="user_login" require>
+        <input type="text" placeholder="Input your email:" value="<?php echo $_POST["user_login"] ?? ''; ?>" name="user_login" id="user_login" require>
 
         <!-- <label for="u_password">Input Password:</label> -->
         <input type="password" placeholder="Input your password:" name="u_password" id="u_password" require>
     
          <input type="submit" value="Log In">
-        <p style="color:red; text-align:center; margin-top: 55px; font-size: 15xp;"><?php echo $error["auth"] ?? null; ?></p>
-</form>
+        <?php if($error): ?>
+         <p style="color:red; text-align:center; margin-top: 55px; font-size: 15xp;"><?php echo $error["auth"] ?? null; ?></p>
+        <?php endif; ?>
+        </form>
 
 
 </body>

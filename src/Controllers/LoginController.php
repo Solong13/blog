@@ -1,24 +1,16 @@
 <?php
-/*
-1) При введені логіна і пароля повинна викликатися функція із перевіркою таких даних в бд та повертати результат,
-якщо такого немає перенаправлять на реєстрацію або видавати помилку та запропонувати реєстрацію, або зайти в акаунт, якщо дані є в бд
 
-1) якщо логін і пароль немає пишемо такого користувача не знайдено
-2) якщо є збергіаємо дані лог і пароль в сесії
-валідація, як окремий клас для даних які вводяться в форму та передаються в запиті до бд
-helper як редірект функція
-*/
 namespace SoLong\Blog\Controllers;
 
 use  SoLong\Blog\Core\Session;
-use  SoLong\Blog\Core\View;
 use  SoLong\Blog\Core\Cookie;
 use  SoLong\Blog\Core\Post;
 use  SoLong\Blog\Utils\CaptchaWrapper;
 use SoLong\Blog\model\con_DB;
 use SoLong\Blog\model\Db_reguests_with_DI;
+use SoLong\Blog\config\ValidHelper;
 
-class LoginController {
+class LoginController extends BaseController{
 
     private $session;
 
@@ -28,42 +20,40 @@ class LoginController {
 
     public function currentPath() {
         $post = new Post();
-        $view = new View();
         $cookie = new Cookie();
         $db = new  con_DB();
-       $pdo = new Db_reguests_with_DI($db);
+        $pdo = new Db_reguests_with_DI($db);
+        $validHelper = new ValidHelper();
+        // Помилки можна складати в $_SSESSION['validation']['name']
         $error = [];
-        //$captchaWrapper = new CaptchaWrapper();
-
-       // var_dump();
-  
-        if($post->has('user_login') && $post->has('u_password')){ 
-            $date = $pdo->fetchData($post->get('user_login'), $post->get('u_password'));
-            
-            if(!$date) {
-                $error['auth'] = "Користувача за вказаними даними не існує";
+      var_dump(isset($post->serverArray));
+        if(!empty($post->serverArray)){
+            $date_Form = $validHelper->dateForm($post->serverArray);
+            if ($date_Form === null) {
+                // Якщо не було помилок у валідації
+                $date = $pdo->fetchData($post->get('user_login'), $post->get('u_password'));
+                if (!$date) {
+                    $error['auth'] = "Користувача за вказаними даними не існує";
+                } else {
+                    $this->session->add('login', $date['name']);
+                }
             } else {
-                $name = $pdo->getName($post->get('user_login'));
-                $this->session->add('login', $name['name']);
+                // Відобразити помилки в формі
+                $error['auth'] = $date_Form;
             }
         }
-
+        
         if($this->session->has('login')) {
-            header("Location: ".HOST);
-            exit();
+            $validHelper->redirectTo("/");
         }
 
-        $view->render("login", [
-            "theme" => $cookie->get("theme"),
-            "error" => $error
-            //"captcha" => $captchaWrapper->getCaptcha() ?? null
-        ]);
+        $this->SelectATemplate("login", ["theme" => $cookie->get("theme"),"error" => $error]);
     }
 
     public function logOut(){
+        $validHelper = new ValidHelper(); // потрібно виправити, щоб не створювались два обєкти в одному класі
         $this->session->delete('login');
-        header("Location: ". HOST . "login");
-        exit();
+        $validHelper->redirectTo("/login");
     }
 
 }
